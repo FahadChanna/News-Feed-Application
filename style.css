@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background: #036bfc;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 46px;
+    padding: 0 5px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    overflow: hidden;
+
+}
+.slider img{
+    height: 24vw;
+    width: 80vw;
+    margin: 6px 0;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+.card h2{
+    margin: 15px;
+}
+.text-center{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+#news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    border-radius: 5px;
+
+}
+
+.card-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #036bfc;
+    margin: 28px 0;
+}
+.description{
+    font-size: 12px;
+}
+.author-timestamp {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.author{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.author-timestamp{
+    display: flex;
+    justify-content: space-between;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+.active-page {
+    background-color: #5c93ff;
+    color: white;
+}
+
